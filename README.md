@@ -1,6 +1,6 @@
 # ConstraintLayoutExample
 
-ConstraintLayout例子，大部门功能都有罗列，一些与布局关系不大的功能，将在作者有时间更新。欢迎pull&reqeust.
+ConstraintLayout例子，大部门功能都有罗列，一些与布局关系不大的功能，将在作者有时间更新。欢迎pull&request.
 
 ## 支持的功能
 
