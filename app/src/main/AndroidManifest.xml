@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.why.constraint">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ConstraintLayoutExample">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.ConstraintSetExampleActivity" />
+        <activity android:name=".activity.RelativePositioningExampleActivity" />
+        <activity android:name=".activity.MarginExampleActivity" />
+        <activity android:name=".activity.BiasExampleActivity" />
+        <activity android:name=".activity.WidthHeightExampleActivity" />
+        <activity android:name=".activity.CircularPositioningExampleActivity" />
+        <activity android:name=".activity.RatioExampleActivity" />
+        <activity android:name=".activity.ChainExampleActivity" />
+        <activity android:name=".activity.GuideLineExampleActivity" />
+        <activity android:name=".activity.BarrierExampleActivity" />
+        <activity android:name=".activity.GroupExampleActivity" />
+        <activity android:name=".activity.PercentDimensionsExampleActivity" />
+        <activity android:name=".activity.DefaultMinMaxExampleActivity" />
+        <activity android:name=".activity.PlaceHolderExampleActivity" />
+        <activity android:name=".activity.LayerExampleActivity" />
+        <activity android:name=".activity.FlowExampleActivity" />
+    </application>
+
+</manifest>

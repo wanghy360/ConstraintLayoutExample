@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ConstraintLayoutExample</string>
+    <string name="set_apply_desc">如果改动ConstraintSet支持的属性，而且希望可以用在另一个ConstraintSet中，需要在applyTo之前set属性</string>
+    <string name="place_holder_desc">通过设置app:content=\"id\"或setContentId，将对应id的View的内容绘制到Placeholder的位置上，而原来的View就像gone了一样。请点击下面的按钮试试效果。</string>
+    <string name="margin_desc">margin是基于有约束条件的一边,否则设置无效。goneMargin是在依赖的控件消失时所加的margin。请将F设为GONE后,关注X与X1的位置变化。也许你已经注意到，X的layout_goneMarginTop=85dp是F的高度与F的marginTop之和。</string>
+    <string name="width_height_desc">约束布局的子View的宽高属性有4种可能，match_parent、0dp、wrap_content、具体的大小。下面对这4个情况进行说明:\n\n match_parent 2.0版本开始支持，撑满一个方向，不需要另加约束。\n\n 0dp 意思是match_constraint，在约束范围内撑满一个方向，如果不加约束，与match_parent效果一样，如果加约束，会撑满约束限制的宽高。\n\n wrap_content 内容包裹，显示的尺寸可能会超过约束限制，layout_constrainedWidth=“true”可以强制约束。如果不加约束，从左、上开始布局，不推荐这样做\n\n 具体的大小 显示的尺寸可能会超过约束限制。如果不加约束，从左、上开始布局，不推荐这样做</string>
+    <string name="mainunit">{"Area":["yard","acre"],"Pressure":[],"Speed":[],"Volume":[]}</string>
+</resources>

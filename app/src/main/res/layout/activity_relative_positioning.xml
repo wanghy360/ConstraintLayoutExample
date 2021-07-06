@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/A"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:background="#E91E63"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/B"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:background="#E91E63"
+        android:gravity="center"
+        android:text="B"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/C"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:background="#E91E63"
+        android:gravity="center"
+        android:text="C"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/D"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:background="#E91E63"
+        android:gravity="center"
+        android:text="D"
+        android:textColor="@color/white"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/E"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:background="#E91E63"
+        android:gravity="center"
+        android:text="E"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toRightOf="@id/A"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/F"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="50dp"
+        android:background="#E91E63"
+        android:gravity="center"
+        android:text="F"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="@id/E"
+        app:layout_constraintRight_toRightOf="@id/E"
+        app:layout_constraintTop_toBottomOf="@id/E" />
+
+    <TextView
+        android:id="@+id/G"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:background="#E91E63"
+        android:gravity="center"
+        android:text="G"
+        android:textColor="@color/white"
+        app:layout_constraintBaseline_toBaselineOf="@id/F"
+        app:layout_constraintLeft_toRightOf="@id/F" />
+
+    <TextView
+        android:id="@+id/H"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="300dp"
+        android:background="#E91E63"
+        android:gravity="center"
+        android:text="H"
+        android:textColor="@color/white"
+        app:layout_constraintRight_toRightOf="@id/G"
+        app:layout_constraintTop_toBottomOf="@id/G" />
+
+    <TextView
+        android:id="@+id/I"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="50dp"
+        android:background="#E91E63"
+        android:gravity="center"
+        android:text="I"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/H"
+        app:layout_constraintRight_toRightOf="@id/G" />
+
+    <TextView
+        android:id="@+id/J"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="30dp"
+        android:background="#673AB7"
+        android:gravity="center"
+        android:text="J"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/I"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/K"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="90dp"
+        android:background="#E91E63"
+        android:gravity="center"
+        android:text="K"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/B"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/A" />
+
+    <TextView
+        android:id="@+id/L"
+        android:layout_width="10dp"
+        android:layout_height="0dp"
+        android:layout_marginRight="90dp"
+        android:background="#804CAF50"
+        android:gravity="center"
+        android:text="L"
+        android:textColor="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/E"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/M"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="300dp"
+        android:background="#F44336"
+        android:gravity="center"
+        android:text="M"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="@id/J"
+        app:layout_constraintBottom_toTopOf="@id/J" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="50dp"
+        android:background="#C0F44336"
+        android:gravity="center"
+        android:text="按照字母的顺序理解相对位置属性"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
